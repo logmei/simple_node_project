@@ -1,0 +1,22 @@
+{
+    "name": "urlKoa",
+    "version": "1.0.0",
+    "description": "urlkoa test",
+    "main": "controllers/index.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "koa",
+        "async"
+    ],
+    "author": {
+        "name": "logmei"
+    },
+    "license": "Apache-2.0",
+    "dependencies": {
+        "koa": "2.0.0",
+        "koa-router": "7.4.0",
+        "koa-bodyparser": "4.2.1"
+    }
+}
