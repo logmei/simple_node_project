@@ -20,7 +20,7 @@ function addControllers(controllers_dir){
 }
 
 function addMapping(mapping){
-    console.log(mapping)
+    console.log('mapping',mapping)
     Object.keys(mapping).forEach(key=>{
         Object.keys(HTTP_TYPE_INDEX).forEach(v=>{
             if(key.indexOf(v)===-1) return;
